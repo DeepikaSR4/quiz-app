@@ -58,8 +58,7 @@ const quizData = [
       optionsElem.appendChild(document.createElement("br"));
     });
   }
-  
-  // Check selected answer and move to the next question
+
   function checkAnswer() {
     const selectedAnswer = document.querySelector('input[name="answer"]:checked');
     if (selectedAnswer) {
